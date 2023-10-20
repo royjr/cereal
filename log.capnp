@@ -384,6 +384,10 @@ struct DeviceState @0xa4d8b5af2aa492eb {
     wwanRx @1 :Int64;
   }
 
+  struct SentryState {
+    status @0 :Bool;
+  }
+
   # deprecated
   cpu0DEPRECATED @0 :UInt16;
   cpu1DEPRECATED @1 :UInt16;
